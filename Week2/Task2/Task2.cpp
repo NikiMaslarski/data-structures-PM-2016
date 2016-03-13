@@ -85,7 +85,7 @@ Computer& Computer::operator=(const Computer& second){
 void sortComputers(Computer* computers, int size){
     for(int i = 0; i < size-1; ++i){
         int j = i + 1;
-        Computer tempElement = computers[j];
+        Computer tempElement = computers[j];            //This is where we use the redefined operator=
         while(j > 0 && tempElement.getRating() < computers[j-1].getRating()){
             computers[j] = computers[j-1];
             j = j-1;
