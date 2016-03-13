@@ -48,7 +48,6 @@ cout << setw(7)
 void product::read()
 {cout << "name: ";
  cin >> name;
-41
  cout << "price: ";
  cin >> price;
  cout << "score: ";
