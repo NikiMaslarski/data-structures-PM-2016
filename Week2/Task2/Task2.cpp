@@ -75,13 +75,13 @@ double Computer::getRating(){
     return price/score;
 }
 
-
 Computer& Computer::operator=(const Computer& second){
     strcpy(name, second.name);
     price = second.price;
     score = second.score;
 }
 
+// Insertion Sort
 void sortComputers(Computer* computers, int size){
     for(int i = 0; i < size-1; ++i){
         int j = i + 1;
@@ -119,6 +119,4 @@ int main(){
         cout << "Computer " << i << " :" << endl;
         myComputers[i].printPcInfo();
     }
-
-
 }
