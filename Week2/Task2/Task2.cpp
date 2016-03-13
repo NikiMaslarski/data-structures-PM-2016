@@ -75,7 +75,6 @@ double Computer::getRating(){
     return price/score;
 }
 
-
 Computer& Computer::operator=(const Computer& second){
     strcpy(name, second.name);
     price = second.price;
@@ -119,6 +118,4 @@ int main(){
         cout << "Computer " << i << " :" << endl;
         myComputers[i].printPcInfo();
     }
-
-
 }
