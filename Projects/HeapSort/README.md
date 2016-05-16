@@ -9,6 +9,6 @@
 *Note:
 Повече за хийп можете прочетете* **[тук](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Binary%20Heaps/heaps.html)**
 </p>
-*Или да изгледате следните видеа:*
+*Или да изгледате следните видеа (силно препоръчвам) от лекциите по Дизайн и Анализ на Алгоритми на гл.ас. Георги Георгиев:*
 - **[I-част](https://youtu.be/f9qGeM-MOGE?t=6m21s)**
 - **[II-част](https://www.youtube.com/watch?v=TcA10wKeCfQ)**
